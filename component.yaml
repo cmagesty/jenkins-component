@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: 'jenkins-test'
+  description: 'jenkins job test'
+  annotations:
+    jenkins.io/github-folder: 'docker_node_e2e_pipeline'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: your-name

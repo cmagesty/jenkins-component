@@ -4,7 +4,7 @@ metadata:
   name: 'jenkins-test'
   description: 'jenkins job test'
   annotations:
-    jenkins.io/github-folder: 'docker_node_e2e_pipeline'
+    jenkins.io/github-folder: 'demo_backstage/docker_node_e2e_pipeline'
 spec:
   type: service
   lifecycle: experimental
